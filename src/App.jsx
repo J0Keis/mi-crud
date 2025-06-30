@@ -87,7 +87,7 @@ function App() {
     setErrores({});
   };
 
-  // Eliminar un alumno del listado
+  // Eliminar a un alumno del listado
   const handleDelete = (index) => {
     const nuevos = alumnos.filter((_, i) => i !== index);
     setAlumnos(nuevos);
